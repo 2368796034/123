@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         zuce.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+//跳转到 MainActivity3
                 Intent intent = new  Intent(MainActivity.this,Main3Activity.class);
                 startActivity(intent);
                 
